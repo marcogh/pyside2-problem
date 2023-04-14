@@ -22,7 +22,7 @@ class UI(QMainWindow):
         self.ui.label.show()
         self.resize(
             self.width(),
-            self.height() - self._label_height
+            self.height() + self._label_height
         )
         print('show label')
 
